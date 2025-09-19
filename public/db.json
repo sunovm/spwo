@@ -1,0 +1,247 @@
+{
+  "product":[
+  {
+    "id": 1,
+    "title": "크랙 프린티드 후디 (Black)",
+    "desc": "앞뒤에 더해진 빈티지 무드의 크랙 프린트 아트웍 포인트",
+    "price": 79000,
+    "image": "https://hdex.co.kr/web/product/small/202509/e0c15ee867ef8636d5a1def95a978d13.jpg",
+    "tags": ["상의", "후드"],
+    "recommended": true,
+    "new": true
+  },
+  {
+    "id": 2,
+    "title": "크랙 프린티드 스웨트 쇼츠 (Black)",
+    "desc": "전면의 빈티지 무드 크랙 프린트 아트웍 포인트",
+    "price": 59000,
+    "image": "https://hdex.co.kr/web/product/small/202508/3f9d8624efd98ce4edd593d176784ae3.jpg",
+    "tags": ["하의", "반바지"],
+    "recommended": false,
+    "new": true
+  },
+  {
+    "id": 3,
+    "title": "메인 스몰 로고 에어 머슬핏 숏 슬리브",
+    "desc": "우수한 흡습성과 신축성으로 액티브활동 시 더욱 편안하게 착용 가능",
+    "price": 36000,
+    "image": "https://hdex.co.kr/web/product/small/202508/2c69807846a0c211897c34aa18465abe.jpg",
+    "tags": ["상의", "머슬핏"],
+    "recommended": true
+  },
+  {
+    "id": 4,
+    "title": "브레이킹 데미지 슬리브리스 (Black)",
+    "desc": "가볍고 내구성이 우수한 원단을 사용한 오버핏 실루엣의 슬리브리스",
+    "price": 45000,
+    "image": "https://hdex.co.kr/web/product/small/202508/2b54136445775704cea0674d81f76131.jpg",
+    "tags": ["상의", "슬리브리스"],
+    "recommended": false,
+    "new": true
+  },
+  {
+    "id": 5,
+    "title": "우먼스 펌 서포트 부츠컷 레깅스 (Black)",
+    "desc": "슬림한 허벅지와 자연스럽게 보정되는 힙 라인",
+    "price": 52000,
+    "image": "https://hdex.co.kr/web/product/small/202509/8bc931ec3514422adb4c953c41e43a78.jpg",
+    "tags": ["하의", "레깅스", "부츠컷"],
+    "recommended": true
+  },
+  {
+    "id": 6,
+    "title": "코어 로고 삭스 2 color",
+    "desc": "운동과 일상 생활에서 포인트를 더해줄 크루삭스",
+    "price": 7000,
+    "image": "https://hdex.co.kr/web/product/small/202508/7fb87200bfb4394a96d0f43e3123b7b3.jpg",
+    "tags": ["양말", "기능성"],
+    "recommended": false
+  },
+  {
+    "id": 7,
+    "title": "우먼스 서포트 파이핑 부츠컷 레깅스 (Navy)",
+    "desc": "우수한 신축성과 탄력성으로 액티브 활동에도 문제 없이 착용 가능하며, 고강도 퍼포먼스에 최적화된 레깅스",
+    "price": 65000,
+    "image": "https://hdex.co.kr/web/product/small/202508/46b71a27e1c5ad37ddd29cd619e676ad.jpg",
+    "tags": ["하의", "레깅스", "부츠컷"],
+    "recommended": true,
+    "new": true
+  },
+  {
+    "id": 8,
+    "title": "크랙 프린티드 후디 (Navy)",
+    "desc": "넉넉한 오버핏 사이즈로 캐주얼한 무드의 후디",
+    "price": 79000,
+    "image": "https://hdex.co.kr/web/product/small/202509/770c1f2d0458e86bb176e1d95563d3a0.jpg",
+    "tags": ["상의", "후드"],
+    "recommended": false,
+    "new": true
+  },
+  {
+    "id": 9,
+    "title": "스포티 링거 머슬핏 숏 슬리브 (Black)",
+    "desc": "트렌디한 연출이 가능한 배색 링거티 디자인",
+    "price": 49000,
+    "image": "https://hdex.co.kr/web/product/small/202505/91af7dbae4d2ea64e7f86cbab873d740.jpg",
+    "tags": ["상의", "머슬핏"],
+    "recommended": true
+  },
+  {
+    "id": 10,
+    "title": "코어 백 로고 피그먼트 롱 슬리브 (Charcoal)",
+    "desc": "16수 싱글지를 사용하여 무겁지 않으며, 환절기에 가벼운 착용감과 피그먼트 다잉으로 내츄럴한 디자인으로 연출 가능",
+    "price": 69000,
+    "image": "https://hdex.co.kr/web/product/small/202508/7f2774cb2cf4d1fb2860c348139b135f.jpg",
+    "tags": ["상의", "긴팔"],
+    "recommended": false,
+    "new": true
+  },
+  {
+    "id": 11,
+    "title": "크랙 프린티드 스웨트 팬츠 (Black)",
+    "desc": "일자로 떨어지는 스트레이트 핏의 스웨트 팬츠",
+    "price": 75000,
+    "image": "https://hdex.co.kr/web/product/small/202508/1231a7fc2e1b78164c3518ff0073cc6a.jpg",
+    "tags": ["하의"],
+    "recommended": true,
+    "new": true
+  },
+  {
+    "id": 12,
+    "title": "브레이킹 데미지 슬리브리스 (White)",
+    "desc": "네크라인과 소매단, 밑단의 데미지 디테일, 전면 HDEX 코어 로고 아트웍",
+    "price": 45000,
+    "image": "https://hdex.co.kr/web/product/small/202508/c5899edbf3a956d533c2bb325208d8cf.jpg",
+    "tags": ["상의", "슬리브리스"],
+    "recommended": false,
+    "new": true
+  },
+  {
+    "id": 13,
+    "title": "코어 스몰 로고 자이언트핏 숏 슬리브 (Black)",
+    "desc": "자이언트 핏으로 제작되어 착용 시 자유로운 활동이 가능",
+    "price": 52000,
+    "image": "https://hdex.co.kr/web/product/small/202503/696ae964f9c708afed34ede45c61660a.jpg",
+    "tags": ["상의", "반팔"],
+    "recommended": true
+  },
+  {
+    "id": 14,
+    "title": "인텐스 에어 머슬핏 숏 슬리브",
+    "desc": "기존 머슬핏 보다 더 얇고 가벼워진 원단",
+    "price": 39000,
+    "image": "https://hdex.co.kr/web/product/small/202506/220e76b973bd74a064f7e9c0b7bb287e.jpg",
+    "tags": ["상의", "반팔", "머슬핏"],
+    "recommended": false
+  },
+  {
+    "id": 15,
+    "title": "자이언트핏 85 매쉬 숏 슬리브 (White)",
+    "desc": "플러스 오버사이즈의 자이언트핏 실루엣",
+    "price": 59000,
+    "image": "https://hdex.co.kr/web/product/small/202507/902c118cc5e42970a3d7c1ad71a1383b.jpg",
+    "tags": ["액세서리", "가방"],
+    "recommended": true
+  },
+  {
+    "id": 16,
+    "title": "우먼스 서포트 파이핑 브라탑 (Navy)",
+    "desc": "고밀도 원단으로 제작되어 높은 내구성을 가진 하이 서포트 브라탑",
+    "price": 52000,
+    "image": "https://hdex.co.kr/web/product/small/202508/f11b2674aa831bf7f826b883e8a4027a.jpg",
+    "tags": ["상의", "브라탑", "세트"],
+    "recommended": true,
+    "new": true
+  },
+  {
+    "id": 17,
+    "title": "우먼스 서포트 브이 라이닝 브라탑 (White)",
+    "desc": "뛰어난 밀착력으로 몸을 안정적으로 서포트",
+    "price": 42000,
+    "image": "https://hdex.co.kr/web/product/small/202508/19c1f1e57310b344a0de64aed7481107.jpg",
+    "tags": ["상의", "브라탑"],
+    "recommended": false,
+    "new": true
+  },
+  {
+    "id": 18,
+    "title": "스포티 링거 머슬핏 숏 슬리브 (White)",
+    "desc": "움직임에 따라 부드럽게 늘어나 다양한 활동에 추천",
+    "price": 49000,
+    "image": "https://hdex.co.kr/web/product/small/202505/3a6938e1d949472a5b291745b5fa0cc2.jpg",
+    "tags": ["상의", "반팔"],
+    "recommended": false
+  },
+  {
+    "id": 19,
+    "title": "우먼스 서포트 파이핑 3.5 바이커 쇼츠 (Navy)",
+    "desc": "부드러운 촉감의 3.5부 기장의 바이커 쇼츠",
+    "price": 49000,
+    "image": "https://hdex.co.kr/web/product/small/202508/274eb39446cd6b5c92f318c25f8d06a5.jpg",
+    "tags": ["하의", "레깅스", "세트"],
+    "recommended": true,
+    "new": true
+  },
+  {
+    "id": 20,
+    "title": "우먼스 서포트 파이핑 부츠컷 레깅스 (Black)",
+    "desc": "골반라인을 살려주고, 종아리를 커버하는 부츠컷 디자인",
+    "price": 65000,
+    "image": "https://hdex.co.kr/web/product/small/202507/102c3a4dd71666f4f9607544a609e72b.jpg",
+    "tags": ["하의", "레깅스", "부츠컷"],
+    "recommended": false,
+    "new": true
+  }
+],
+"best":[
+  {
+    "id": 1,
+    "title": "우먼스 브리센 브이컷 숏 슬리브 (Black)",
+    "price": 45000,
+    "image": "https://m.hdex.co.kr/web/product/small/202508/9f31b7a2e066a146e93e2c4161fce832.jpg",
+    "tags": ["상의", "반팔"]
+  },
+  {
+    "id": 2,
+    "title": "솔리드 버뮤다 쇼츠 (Deep Red)",
+    "price": 79000,
+    "image": "https://m.hdex.co.kr/web/product/small/202503/83c07baa35d8b43a6871639c23d2a8f6.jpg",
+    "tags": ["하의", "버뮤다"]
+  },
+  {
+    "id": 3,
+    "title": "우먼스 서포트 파이핑 부츠컷 레깅스 (Faded Blue)",
+    "price": 65000,
+    "image": "https://m.hdex.co.kr/web/product/small/202508/8119ee551c120428c35ee5215081757c.jpg",
+    "tags": ["하의", "레깅스"]
+  },
+  {
+    "id": 4,
+    "title": "우먼스 브리센 슬리브리스 (Taupe)",
+    "price": 39000,
+    "image": "https://m.hdex.co.kr/web/product/small/202508/74f859c5ddef037063a73bf3d1154222.jpg",
+    "tags": ["상의", "슬리브리스"]
+  },
+  {
+    "id": 5,
+    "title": "네임드 컴포터블 쇼츠 (Melange Gray)",
+    "price": 59000,
+    "image": "https://m.hdex.co.kr/web/product/small/202503/6e01419defcbe94ea7bab53a3ebe2891.jpg",
+    "tags": ["하의", "반바지"]
+  },
+  {
+    "id": 6,
+    "title": "브리센 머슬핏 롱 슬리브 (Black)",
+    "price": 59000,
+    "image": "https://m.hdex.co.kr/web/product/small/202508/021639eaaa772168807f42c58a3f7061.jpg",
+    "tags": ["상의", "긴팔"]
+  },
+  {
+    "id": 7,
+    "title": "실버 메인로고 라운드 슬리브리스 (White)",
+    "price": 39000,
+    "image": "https://m.hdex.co.kr/web/product/small/202503/c996c1038fa35b3606841f343306378a.jpg",
+    "tags": ["상의", "슬리브리스"]
+  }
+]
+}

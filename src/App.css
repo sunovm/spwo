@@ -1,38 +1,336 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+:root {
+  --color-black: #000000;
+  --color-black02: #101010;
+  --color-white: #fff;
+  --color-beige: #E9E3DF;
+  --color-orange: #FF7A30;
+  --color-dark: #465C88;
+  --radius: 20px;
+  --font-h2: "Alfa Slab One";
+}
+/* 공통 */
+.textArea {
+  padding: 10px 15px 15px;
+}
+h3{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  line-height: 1.2;
+  word-break: keep-all;
+  color: var(--color-black);
+}
+.price {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: var(--color-black);
+}
+.tags {
+  display: inline-block;
+  font-size: 13px;
+  padding: 5px 10px;
+  background-color: var(--color-beige);
+  border-radius: var(--radius);
+  color: var(--color-black02);
+  transform: translateX(-5px);
+}
+.desc{
+  line-height: 1.4;
+  word-break: keep-all;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: var(--color-black02);
+}
+
+/* header */
+.logo {
+  font-family: var(--font-h2);
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.logo img {
+  margin-right: 10px;
+  transform: translateY(5px);
+}
+
+header .gnb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 20px 20px;
+}
+
+header .gnb a {
+  padding: 5px 10px;
+}
+
+/* main */
+.main {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* home-contents */
+.hero-slide div {
+  aspect-ratio: 3/4;
+  overflow: hidden;
+}
+
+.hero-slide div img {
+  width: 100%;
+}
+
+/* intro-text */
+.intro-text {
+  padding: 15px 20px 20px;
+  margin-bottom: 20px;
+}
+
+.intro-text h2 {
+  margin-bottom: 10px;
+}
+.intro-text h2 >span {
+  display: block;
+  line-height: 1.3;
+}
+.intro-text h2 span+span{
+  font-size: 20px;
+}
+.intro-text h2 span>span {
+  color: var(--color-dark);
+}
+.intro-text .text-area p{
+  line-height: 1.4;
+}
+
+/* hot */
+.hot-area {
+  padding: 20px;
+}
+
+.hot-area h2 {
+  text-indent: 10px;
+  margin-bottom: 10px;
+}
+.card {
+  border-radius: var(--radius);
+  border: 1px solid #f2f2f2;
+  overflow: hidden;
+}
+
+.card+.card {
+  margin-top: 20px;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
+
+
+/* shop */
+.container {
+  padding: 10px 20px;
+}
+.container .title-area {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.container .title-area h2 {
+  margin-bottom: 10px;
+}
+.container .title-area small {
+  font-size: 15px;
+}
+.container .title-area small span {
+  font-weight: 500;
+  color: var(--color-dark);
+}
+/* product-area */
+.product-area, .best-area {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.product-area h2,
+ .best-area h2 {
+  text-indent: 10px;
+  margin-bottom: 10px;
+}
+.product-card {
+  position: relative;
+  border-radius: var(--radius);
+  border: 1px solid #f2f2f2;
+  overflow: hidden;
+}
+
+.product-card img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
+
+.textArea .bedge {
+  position: absolute;
+  top: 5px; left: 5px;
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  font-size: 13px;
+  border-radius: var(--radius);
+  font-weight: 300;
+}
+
+.container .btn-area {
+  display: block;
+  border: 1px solid var(--color-dark);
+  color: var(--color-dark);
+  padding: 10px 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* site-footer */
+.site-footer {
+  width: 100%;
+  height: 40px;
+  background-color: var(--color-black02);
+  color: var(--color-orange);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+/* new */
+.new-area .title-area {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.new-area h2 {
+  margin-bottom: 10px;
+}
+.new-area small {
+  font-size: 15px;
+}
+.new-area small span {
+  font-weight: 500;
+  color: var(--color-dark);
+}
+.new-area {
+  padding: 10px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.new-card {
+  border-radius: var(--radius);
+  border: 1px solid #f2f2f2;
+  overflow: hidden;
+}
+
+.new-card+.new-card {
+  margin-top: 20px;
+}
+
+.new-card img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
+/* best */
+.vid-area{
+  margin-bottom: 20px;
+}
+.vid-area video {
+  width: 100%;
+}
+.best-card {
+  position: relative;
+  border-radius: var(--radius);
+  border: 1px solid #f2f2f2;
+  overflow: hidden;
+}
+
+.best-card img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
+
+/* qna */
+.container .qna{
+  margin-bottom: 10px;
+}
+.container .react-tabs__tab-list {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container .react-tabs__tab-list .react-tabs__tab{
+  padding: 10px 20px;
+  border: 1px solid #f2f2f2;
+  font-size: 14px;
+}
+.container .react-tabs__tab-list .react-tabs__tab+.react-tabs__tab {
+  margin-left: -1px;
+}
+.container .react-tabs__tab--selected {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  outline: none;
+}
+.container .react-tabs__tab-panel h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.qnaList {
+  font-size: 15px;
+  color: var(--color-black02);
+  line-height: 1.4;
+}
+.qnaList>div {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #cdcdcd;
+}
+.qnaList>div .q {
+  color: var(--color-dark);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.qnaList>div .a {
+  color: var(--color-black02);
+}
+.qnaList>div .a span {
+  color: var(--color-black);
+  font-weight: 500;
+}
+#inquiry {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#inquiry:focus{
+  outline: none;
+}
+button[type=submit]{
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #465C88;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 60px;
 }
