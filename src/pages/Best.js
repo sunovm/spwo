@@ -6,7 +6,7 @@ const Best = () => {
   const [best, setBest] = useState([]);
 
   useEffect(() => {
-    fetch("/db.json")
+    fetch(`${process.env.PUBLIC_URL}/db.json`)
       .then((r) => r.json()) //json형태로 데이터 변환
       .then((data) => setBest(data.best || [])) //json에서 best 되어있는 애들만 뽑아줌(만약 다른 것들과 섞여있다면 걸러줌)
       .catch(console.error);

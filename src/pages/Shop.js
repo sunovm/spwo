@@ -6,7 +6,7 @@ const Shop = () => {
   const [showAll, setShowAll]=useState(false); //전체보기(더보기) 초기값은 false(처음에는 전체보기 상태가 아님)
 
   useEffect(()=>{
-    fetch('/db.json')
+    fetch(`${process.env.PUBLIC_URL}/db.json`)
       .then(r=>r.json()) //json형태로 데이터 변환
       .then(data=>setAll(data.product || [])) //json에서 product라고 되어있는 애들만 뽑아줌(만약 다른 것들과 섞여있다면 걸러줌)
       .catch(console.error)

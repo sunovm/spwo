@@ -16,7 +16,7 @@ const Home = () => {
   const [rec, setRec] = useState([]);
 
   useEffect(() => {
-    fetch('/db.json')
+    fetch(`${process.env.PUBLIC_URL}/db.json`)
       .then((r) => r.json()) //요청한 데이터를 json형태로 변경
       .then((data) => {
         const product = data.product || []; //data.product가 있으면 그 값 그대로 보여주고, 없으면 빈 배열로 처리=> product 데이터가 항상 배열로 처리되도록 해주는 구문

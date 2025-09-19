@@ -6,7 +6,7 @@ const ShopDetail = () => {
   const [item, setItem] = useState(null);
 
   useEffect(() => {
-    fetch("/db.json")
+    fetch(`${process.env.PUBLIC_URL}/db.json`)
       .then((r) => r.json()) //json형태로 데이터 변환
       .then((data) => {
         const found = data.product.find((m) => m.id === parseInt(id));
